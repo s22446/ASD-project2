@@ -1,6 +1,32 @@
+######## ENCODE ########
+
+# ENCODE INPUT FILES #
 # BIG FILE TO ENCRYPT PATH
-BIG_ENCRYPTION_FILE_PATH = "big_text_for_encryption.txt"
+ENCODE_INPUT_BIG_ENCRYPTION_FILE_PATH = "big_text_for_encryption.txt"
 # FILE TO ENCRYPT PATH
-ENCRYPTION_FILE_PATH = "text_for_encryption.txt"
+ENCODE_INPUT_ENCRYPTION_FILE_PATH = "text_for_encryption.txt"
 # SMALL FILE TO ENCRYPT PATH
-SMALL_ENCRYPTION_FILE_PATH = "small_text_for_encryption.txt"
+ENCODE_INPUT_SMALL_ENCRYPTION_FILE_PATH = "small_text_for_encryption.txt"
+
+# ENCODING OUTPUT FILES #
+# HUFFMAN CODES OUTPUT PATH
+ENCODE_OUTPUT_CODES_FILE_PATH = "output/codes.txt"
+# ENCODED MESSAGE TXT OUTPUT PATH
+ENCODE_OUTPUT_TXT_FILE_PATH = "output/encoded_message.txt"
+# ENCODED MESSAGE BIN OUTPUT PATH
+ENCODE_OUTPUT_BIN_FILE_PATH = "output/encoded_message.bin"
+
+
+######## DECODE ########
+
+# DECODE INPUT FILES #
+# DECODE INPUT BIN PATH FROM MAIN FILE
+DECODE_MAIN_INPUT_BIN_FILE_PATH = "output/encoded_message.bin"
+# DECODE INPUT BIN PATH
+DECODE_INPUT_BIN_FILE_PATH = "../output/encoded_message.bin"
+
+# DECODING OUTPUT FILES #
+# DECODED OUTPUT TXT PATH FROM MAIN FILE
+DECODE_MAIN_OUTPUT_TXT_FILE_PATH = "output/decoded_message.txt"
+# DECODED OUTPUT TXT PATH
+DECODE_OUTPUT_TXT_FILE_PATH = "../output/decoded_message.txt"
